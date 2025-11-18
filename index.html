@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Pegada de Carbono</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🌱 Calculadora de Pegada de Carbono</h1>
+        <p>Preencha seus hábitos diários para estimar sua pegada de carbono anual em Toneladas de CO₂ equivalente (t CO₂e).</p>
+        
+        <form id="carbon-form">
+            
+            <section class="input-group">
+                <label for="transporte">🚗 Quilômetros diários percorridos (Carro, Moto, Ônibus):</label>
+                <input type="number" id="transporte" value="10" min="0" required>
+                <small>Ex: 10 km por dia</small>
+            </section>
+            
+            <section class="input-group">
+                <label for="eletronicos">💻 Horas diárias usando Eletrônicos (PC, TV, Console):</label>
+                <input type="number" id="eletronicos" value="4" min="0" required>
+                <small>Ex: 4 horas por dia</small>
+            </section>
+            
+            <section class="input-group">
+                <label for="carne">🥩 Refeições com Carne por semana (Bovinas, Aves, Suínas):</label>
+                <input type="number" id="carne" value="7" min="0" required>
+                <small>Ex: 7 refeições por semana</small>
+            </section>
+            
+            <button type="submit">Calcular Pegada de Carbono</button>
+        </form>
+        
+        <div id="resultado" class="resultado-box">
+            </div>
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
