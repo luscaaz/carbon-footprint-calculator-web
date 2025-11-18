@@ -22,10 +22,11 @@ const FATOR_CARNE = 0.5 * 365 / 1000;       // por refeição semanal
 
 > Estes valores são aproximações e servem apenas para fins educativos.
 
----
+```
 
 ## Como Usar
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seuusuario/carbon-footprint-calculator-web
+   git clone https://github.com/luscaaz/carbon-footprint-calculator-web
+
